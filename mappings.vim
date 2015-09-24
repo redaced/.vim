@@ -25,11 +25,7 @@ map <leader>p :set paste<CR>"*p:set nopaste<cr>
 map <leader><leader>p :set paste<CR>o<ESC>"*p:set nopaste<cr>
 
 map <leader><C-N> :NERDTreeToggle<CR>
-<<<<<<< HEAD
-map <C-N> :NERDTreeToggle %<CR>
-=======
 map <C-N> :NERDTree <CR>
->>>>>>> test
 map <C-T> :TagbarOpenAutoClose<CR>
 
 nnoremap <silent> <Space> :set hlsearch! hlsearch?<CR>
