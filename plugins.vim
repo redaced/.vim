@@ -25,10 +25,10 @@ Plug 'honza/vim-snippets'
 " Languages
 Plug 'scrooloose/syntastic'
 Plug 'plasticboy/vim-markdown'
-Plug 'zah/nim.vim', { 'for': 'nim' }
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
-Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
-Plug 'fasterthanlime/ooc.vim', { 'for': 'ooc' }
+"Plug 'zah/nim.vim', { 'for': 'nim' }
+"Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+"Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+"Plug 'fasterthanlime/ooc.vim', { 'for': 'ooc' }
 Plug 'StanAngeloff/php.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-eunuch'
@@ -41,5 +41,9 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar',   { 'on':  'TagbarOpenAutoClose' }
 Plug 'taglist.vim'
 Plug 'Shougo/vimshell.vim'
-
+Plug 'StanAngeloff/php.vim'
+Plug 'shawncplus/phpcomplete.vim'
+Plug 'markwu/vim-laravel4-snippets'
+Plug 'm2mdas/phpcomplete-extended-laravel'
+Plug 'xsbeats/vim-blade'
 call plug#end()
