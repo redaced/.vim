@@ -46,4 +46,5 @@ Plug 'shawncplus/phpcomplete.vim'
 Plug 'markwu/vim-laravel4-snippets'
 "Plug 'm2mdas/phpcomplete-extended-laravel'
 Plug 'xsbeats/vim-blade'
+Plug 'twbs/bootlint'
 call plug#end()
