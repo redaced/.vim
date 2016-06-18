@@ -36,5 +36,5 @@ map <F3> :sp ~/
 
 map <F6> :set fileencoding=
 map <F7> :set filetype=
-
+map <F9> :w<CR>
 map <F12> :Gist 
