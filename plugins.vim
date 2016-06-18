@@ -9,7 +9,7 @@ Plug 'kien/ctrlp.vim'
 
 " work-related
 Plug 'ngmy/vim-rubocop'
-
+Plug 'tomtom/tcomment_vim'
 
 "Plug 'sjl/gundo.vim' " undo history browser
 Plug 'kien/ctrlp.vim'
@@ -38,7 +38,7 @@ Plug 'mattn/gist-vim'
 Plug 'davidhalter/jedi-vim'
 
 " Tools
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar',   { 'on':  'TagbarOpenAutoClose' }
 Plug 'taglist.vim'
