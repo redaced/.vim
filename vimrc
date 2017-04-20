@@ -69,3 +69,19 @@ set mouse=a
 set encoding=utf-8
 set fileencoding=utf-8
 set termencoding=utf-8
+
+" let <c-/> :call TComment
+
+"au BufWrite * :Autoformat
+"let g:autoformat_autoindent = 0
+"let g:autoformat_retab = 0
+"let g:autoformat_remove_trailing_spaces = 0
+
+" NERD Tree
+" let NERDTreeMapOpenInTab='\r'
+
+" autocmd FileType javascript vnoremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
+" autocmd FileType json vnoremap <buffer> <c-f> :call RangeJsonBeautify()<cr>
+" autocmd FileType jsx vnoremap <buffer> <c-f> :call RangeJsxBeautify()<cr>
+" autocmd FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
+" autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
