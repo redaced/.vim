@@ -31,10 +31,8 @@ map <C-T> :TagbarOpenAutoClose<CR>
 nnoremap <silent> <Space> :set hlsearch! hlsearch?<CR>
 
 map <F1> :sp ~/.vim/
-map <F2> :sp ~/.dotfiles/
-map <F3> :sp ~/
+map <F2> :sp ~/
 
 map <F6> :set fileencoding=
 map <F7> :set filetype=
-map <F9> :w<CR>
-map <F12> :Gist 
+map <F3> :w<CR>

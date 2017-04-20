@@ -1,9 +1,3 @@
-"
-"  VIM CONFIGURATION FILE
-"
-"  Jostein Berre Eliassen
-"
-
 set nocompatible    " not care about vi compat
 set t_Co=256        " force 256 colors
 set re=1            " use new regexp engine
@@ -33,7 +27,7 @@ set ruler           " always show cursor position
 set showmode        " display curent mode
 set showcmd         " display incomplete commands
 set number          " show line numbers
-set list " Visual warnings for unsafe characters
+set list            " Visual warnings for unsafe characters
 set listchars=tab:▸·,trail:·,nbsp:●
 
 " INTERFACE
@@ -69,19 +63,3 @@ set mouse=a
 set encoding=utf-8
 set fileencoding=utf-8
 set termencoding=utf-8
-
-" let <c-/> :call TComment
-
-"au BufWrite * :Autoformat
-"let g:autoformat_autoindent = 0
-"let g:autoformat_retab = 0
-"let g:autoformat_remove_trailing_spaces = 0
-
-" NERD Tree
-" let NERDTreeMapOpenInTab='\r'
-
-" autocmd FileType javascript vnoremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
-" autocmd FileType json vnoremap <buffer> <c-f> :call RangeJsonBeautify()<cr>
-" autocmd FileType jsx vnoremap <buffer> <c-f> :call RangeJsxBeautify()<cr>
-" autocmd FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
-" autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
