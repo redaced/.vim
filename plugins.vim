@@ -37,7 +37,7 @@ Plug 'airblade/vim-gitgutter' " visualizes shows changes per line
 " Plug 'davidhalter/jedi-vim'
 
 " Tools
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar',   { 'on':  'TagbarOpenAutoClose' }
 Plug 'taglist.vim'
